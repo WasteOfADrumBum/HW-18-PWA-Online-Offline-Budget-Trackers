@@ -1,63 +1,84 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+# **Online/Offline Budget Tracker**
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+![GitHub license](https://img.shields.io/badge/Made%20by-%40WasteOfADrumBum-green)
 
-Offline Functionality:
+## Description 
 
-  * Enter deposits offline
+Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success. GIVEN a user is on Budget App without an internet connection WHEN the user inputs a withdrawal or deposit THEN that will be shown on the page, and added to their transaction history when their connection is back online.
 
-  * Enter expenses offline
+# Technologies Used
 
-When brought back online:
+![GitHub top language](https://img.shields.io/github/languages/top/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers?color=green&logo=github&logoColor=green)
+![GitHub language count](https://img.shields.io/github/languages/count/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers?color=green&logo=github&logoColor=green)
 
-  * Offline entries should be added to tracker.
+## Table of contents
 
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+- [Installation](#installation)
+- [Instructions](#instructions)
+- [Features](#features)
+- [Example Gif](#example-gif)
+- [Repository Link](#Repository)
+- [Test](#Test)
+- [Licence](#Licence)
+- [GitHub Info](#GitHub)
 
-## Business Context
+## Installation
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+```npm install```
+
+## Instructions
+
+Application deployed on [Heroku](https://jms-pwa-budget-tracker.herokuapp.com/).
+
+## Features
+
+AS AN avid traveller I WANT to be able to track my withdrawals and deposits with or without a data/internet connection SO THAT my account balance is accurate when I am traveling
+
+## Example Gif
+
+<img src="public/assets/images/budget-tracker.gif" width="500" />
+
+## Repository
+
+![GitHub repo size](https://img.shields.io/github/repo-size/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers?logo=github)
+
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers)
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+![GitHubopen pull request](https://img.shields.io/github/issues-pr/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers)
+![GitHub closed pull request](https://img.shields.io/github/issues-pr-closed/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers)
 
-- - -
+![GitHub Stars](https://img.shields.io/github/stars/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers?style=social)
 
-## Commit Early and Often
+- [Project Repo](https://github.com/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers)
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+## Contributors
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
 
-* Follow these guidelines for committing:
+![GitHub contributors](https://img.shields.io/github/contributors/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers)
+![GitHub Forks](https://img.shields.io/github/forks/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers?label=Fork)
+![GitHub Watchers](https://img.shields.io/github/watchers/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers?label=Watch)
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+## Test
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+![GitHub test](https://img.shields.io/badge/test-100%25-success)
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+![GitHub open issues](https://img.shields.io/github/issues/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers)
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+## Licence
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+## GitHub
 
-## Submission on BCS
+<img src="https://avatars0.githubusercontent.com/u/66432859?v=4" width="250" />
 
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
+- Joshua M. Small
+- [GitHub Profile](https://github.com/WasteOfADrumBum)
+- <JMSmall89@gmail.com>
+- ![GitHub Followers](https://img.shields.io/github/followers/WasteOfADrumBum?label=Follow)
 
