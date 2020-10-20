@@ -46,7 +46,6 @@ AS AN avid traveller I WANT to be able to track my withdrawals and deposits with
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers)
 
-
 ![GitHubopen pull request](https://img.shields.io/github/issues-pr/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers)
 ![GitHub closed pull request](https://img.shields.io/github/issues-pr-closed/WasteOfADrumBum/HW-18-PWA-Online-Offline-Budget-Trackers)
 

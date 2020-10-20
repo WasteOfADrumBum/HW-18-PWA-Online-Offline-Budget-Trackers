@@ -1,3 +1,4 @@
+// Files to Cache
 const FILES_TO_CACHE = [
   "/",
   "/index.html",
@@ -10,6 +11,7 @@ const FILES_TO_CACHE = [
   "https://cdn.jsdelivr.net/npm/chart.js@2.8.0"
 ];
 
+// Cache Variables
 const CACHE_NAME = "static-cache-v1";
 const DATA_CACHE_NAME = "data-cache-v1";
 
@@ -65,6 +67,7 @@ self.addEventListener("fetch", evt => {
     return;
   }
 
+  // respond
   evt.respondWith(
     caches.open(CACHE_NAME).then(cache => {
       return cache.match(evt.request).then(response => {
